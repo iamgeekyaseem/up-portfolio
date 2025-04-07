@@ -9,7 +9,7 @@ export const Home = () => {
     >
       <div className="max-w-7xl w-full flex flex-col md:flex-row items-center justify-center gap-10">
         {/* Left: Profile Image */}
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center mt-30">
           <img
             src={image}
             alt="Priyanka"
