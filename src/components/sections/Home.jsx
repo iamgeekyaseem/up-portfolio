@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import image from "../../../public/image.png"; // Adjust if the path is different
+import image from "../../../public/image2.jpg"; // Adjust if the path is different
 
 export const Home = () => {
   return (
