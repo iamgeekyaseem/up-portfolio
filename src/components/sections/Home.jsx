@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import image from "../../../public/image.png"; // Adjust if the path is different
 
 export const Home = () => {
   return (
@@ -7,12 +8,10 @@ export const Home = () => {
       className="min-h-screen flex items-center justify-center relative px-4"
     >
       <div className="max-w-7xl w-full flex flex-col md:flex-row items-center justify-center gap-10">
-        
         {/* Left: Profile Image */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src= 'src\assets\image.png'
-            href= 'src\assets\image.png'
+            src={image}
             alt="Priyanka"
             className="rounded-2xl shadow-xl w-72 h-100 object-cover"
           />
@@ -20,7 +19,7 @@ export const Home = () => {
 
         {/* Right: Text Content */}
         <RevealOnScroll>
-          <div className="w-full  text-center md:text-left z-10">
+          <div className="w-full text-center md:text-left z-10">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-200 bg-clip-text text-transparent leading-tight">
               Hi, I'm Uddandarao Priyanka
             </h1>
