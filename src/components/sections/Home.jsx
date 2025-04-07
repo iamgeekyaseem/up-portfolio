@@ -9,12 +9,15 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-200 bg-clip-text text-transparent leading-tight">
-            Hi, I'm Aseem Gupta
+            Hi, I'm Uddandarao Priyanka
           </h1>
-          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I'm a Full Stack Developer based in India. I love to build web
-            applications and learn new technologies. I'm currently working on
-            building my portfolio website.
+          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto text-justify">
+            Welcome to my personal blog, a digital space where I share insights,
+            discoveries, and reflections from my journey as an academician and a
+            researcher. I'm Dr. UDDANDARAO PRIYANKA, a dedicated scholar
+            passionate about exploring the intersections of Photosynthetic
+            chalcogenide nanobiohybrids for wastewater treatment and production
+            of value added products.
           </p>
           <div className="flex justify-center space-x-4">
             <a
