@@ -33,6 +33,13 @@ export const About = () => {
           <h2 className="text-3xl font-bold text-center mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             About Me
           </h2>
+          <p className="text-gray-400 text-lg mb-8 max-w-4xl mx-auto text-justify">
+            As an academician and researcher with a profound
+            commitment to advancing knowledge in biotechnology, I've had the
+            privilege of immersing myself in the pursuit of understanding and
+            discovery. I am an environmental engineer with my research focusing
+            on nanotechnology for wastewater treatment.
+          </p>
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
               I'm a web developer based in the India. I specialize in building
@@ -74,21 +81,15 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4 text-blue-300">
                 Education
               </h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <ul className="list-disc list-outside text-gray-300 space-y-2 ">
                 <li>
-                  <strong>B.Tech in Biotechnology</strong> - National Institute
-                  of Technology Andhra Pradesh (Dec. 2021– Aug. 2025)
+                  <strong>Ph.D Chemical Engineering 2019 </strong> - National Institute of Technology Surathkal, Karnataka,  India
                 </li>
                 <li>
-                  Relevant Coursework:{" "}
-                  <strong>
-                    Data Structures and Algorithms, Web Development, Machine
-                    Learning
-                  </strong>
+                <strong>M.Tech Chemical Engineering 2014</strong> - Pondicherry Central University, Puducherry, India
                 </li>
                 <li>
-                  <strong>DAV Public School</strong>, Senior Secondary Education
-                  ( Aug. 2018– May 2020)
+                  <strong>B.Tech Biotechnology Engineering 2012</strong> - Andhra University, Visakhapatnam, Andhra Pradesh, India
                 </li>
               </ul>
             </div>
