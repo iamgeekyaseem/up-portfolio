@@ -12,8 +12,9 @@ export const Home = () => {
         <div className="w-full md:w-1/2 flex justify-center">
           <img
             src= 'src\assets\image.png'
+            href= 'src\assets\image.png'
             alt="Priyanka"
-            className="rounded-2xl shadow-xl w-72 h-72 object-cover"
+            className="rounded-2xl shadow-xl w-72 h-100 object-cover"
           />
         </div>
 
