@@ -19,7 +19,7 @@ export const Home = () => {
 
         {/* Right: Text Content */}
         <RevealOnScroll>
-          <div className="w-full text-center md:text-left z-10">
+          <div className="w-full text-center mt-25 md:text-left z-10">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-200 bg-clip-text text-transparent leading-tight">
               Hi, I'm Uddandarao Priyanka
             </h1>
