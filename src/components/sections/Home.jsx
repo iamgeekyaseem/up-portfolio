@@ -11,7 +11,7 @@ export const Home = () => {
         {/* Left: Profile Image */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src= '/src/assets/female-avatar.svg'
+            src= 'src\assets\image.png'
             alt="Priyanka"
             className="rounded-2xl shadow-xl w-72 h-72 object-cover"
           />
