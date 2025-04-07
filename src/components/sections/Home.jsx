@@ -19,6 +19,18 @@ export const Home = () => {
             chalcogenide nanobiohybrids for wastewater treatment and production
             of value added products.
           </p>
+          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto text-justify">
+            About Me: As an academician and researcher with a profound
+            commitment to advancing knowledge in biotechnology, I've had the
+            privilege of immersing myself in the pursuit of understanding and
+            discovery. I am an environmental engineer with my research focusing
+            on nanotechnology for wastewater treatment. I received a doctorate
+            from National Institute of Technology Karnataka, Surathkal, India in
+            Chemical Engineering in the year 2019. In addition I have received
+            Master's from Pondicherry Central University, Puducherry, India in
+            2014 and Bachelor's from in the Department of Biotechnology at
+            Andhra University, Visakhapatnam, Andhra Pradesh, India in 2012.
+          </p>
           <div className="flex justify-center space-x-4">
             <a
               href="#projects"
